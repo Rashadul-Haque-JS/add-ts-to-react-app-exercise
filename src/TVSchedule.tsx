@@ -1,4 +1,6 @@
-const TVSchedule = ({ title, children }) => {
+import { SuperHTML } from "./types/typesSuper";
+
+const TVSchedule = ({title, children }:SuperHTML) => {
     return <>
         <h1 id="js-title">{title}</h1>
         <div id="js-schedule">
